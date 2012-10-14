@@ -1,4 +1,16 @@
 ATown::Application.routes.draw do
+  root to: 'static_pages#home'
+  
+  match '/about', to: 'static_pages#about'
+  
+  match '/services', to: 'static_pages#services'
+  
+  match '/portfolio', to: 'static_pages#portfolio'
+  
+  match '/pledge', to: 'static_pages#pledge'
+  
+  match '/contact', to: 'static_pages#contact'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
