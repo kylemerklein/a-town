@@ -4,14 +4,27 @@
 
 $grayMediumLight: #eaeaea;
 
+
+
 /* universal */
+
+div.text_background{
+  background-color: #f9f9f9;
+  padding: 80px;
+}
+
+div.border{
+  background-color: #33597E;
+  padding: 3px;
+}
 
 html {
   overflow-y: scroll;
 }
 
 body {
-  padding-top: 60px;
+  padding-top: 80px;
+  background-image:url(bedge_grunge.png);
 }
 
 section {
@@ -27,6 +40,12 @@ textarea {
   h1 {
     margin-bottom: 10px;
   }
+}
+
+IMG.home_pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
 
 /* typography */
@@ -45,10 +64,11 @@ h1 {
 h2 {
   font-size: 1.7em;
   letter-spacing: -1px;
+  padding-top:30px;
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $grayLight;
+  color: grayLight;
 }
 
 p {
@@ -80,7 +100,7 @@ p {
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid $grayMediumLight;
+  border-top: 1px solid #A30234;
   color: $grayLight;
   a {
     color: $gray;
